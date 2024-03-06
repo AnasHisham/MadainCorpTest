@@ -1,0 +1,91 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+/*
+[data-letters]:before {
+    content: attr(data-letters);
+    display: inline-block;
+    font-size: 1em;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    border-radius: 50%;
+    background: plum;
+    vertical-align: middle;
+    margin-right: 1em;
+    color: white;
+}*/
+
+[data-letters]:before {
+    content: attr(data-letters);
+    display: inline-block;
+    font-size: 2em;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.4em;
+    text-align: center;
+    border-radius: 50%;
+    background: darkorchid;
+    vertical-align: middle;
+    margin-right: -5em;
+    color: white;
+    margin: 0.2em;
+}
+
+.card.flex-row {
+    border-radius: 2.5rem !important;
+    width: 52rem;
+}
+
+.itemsRow {
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+.item {
+    text-align: -webkit-center;
+    padding-bottom:5px;
+}
+.textName {
+    text-align-last: left;
+    padding-top: 9px;
+    font-size: 1.8rem;
+}
+.categoryLabel {
+    font-size: 15px !important;
+    float: right !important;
+    margin-right: 8px !important;
+}
+
+.containerClass {
+    border:groove;
+    padding-top: 1rem
+}
+
+.categoryRow {
+    text-align: -webkit-center
+}
+
+nav {
+    text-align: -webkit-center;
+}
